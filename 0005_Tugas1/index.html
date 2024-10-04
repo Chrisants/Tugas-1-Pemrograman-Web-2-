@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Halaman Pembayaran</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-image"></div>
+        <div class="overlay">
+            <h1>Panel Pembayaran Belanja</h1>
+            <form>
+                <label for="member">Apakah Anda Member?</label>
+                <input type="radio" id="yes" name="member" value="yes"> Member
+                <input type="radio" id="no" name="member" value="no"> Non-Member<br><br>
+                <label for="total">Total Pembayaran:</label>
+                <input type="number" id="total" name="total"><br><br>
+                <input type="button" value="Calculate" onclick="calculateTotal()">
+            </form>
+        </div>
+    </div>
+	<script src="script.js"></script>
+</body>
+</html>
